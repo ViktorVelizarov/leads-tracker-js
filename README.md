@@ -1,4 +1,4 @@
-#Leads Tracker
+# Leads Tracker
 
 This is a Chrome extension I created with HTML, CSS, and JavaScript. Its purpose is to store links "leads" so the user can access them later.
 
