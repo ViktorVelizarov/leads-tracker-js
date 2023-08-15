@@ -1,0 +1,30 @@
+button{
+    margin-top: 10px;
+    background-color: lightgreen;
+    width: 100px;
+    height: 30px;
+}
+
+.inputField{
+height: 30px;
+width: 313px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    gap: 10px
+}
+
+.deleteBtn{
+background-color: red;
+}
+
+.tabBtn{
+    background-color: lightblue;
+}
