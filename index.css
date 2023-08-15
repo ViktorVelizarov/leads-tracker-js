@@ -5,7 +5,7 @@ button{
     height: 30px;
 }
 
-.inputField{
+#inputField{
 height: 30px;
 width: 313px;
 }
@@ -21,10 +21,10 @@ main{
     gap: 10px
 }
 
-.deleteBtn{
+#deleteBtn{
 background-color: red;
 }
 
-.tabBtn{
+#tabBtn{
     background-color: lightblue;
 }
