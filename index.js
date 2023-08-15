@@ -34,6 +34,10 @@ deleteButton.addEventListener("click", function(){
 })
 
 tabButton.addEventListener("click", function(){
-    console.log("clicked")
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
+        leadsArr.push(tabs[0].url)
+        localStorage.setItem("myLeads", JSON.stringify(leadsArr) )
+        showLeads()
+    })
 })
 
